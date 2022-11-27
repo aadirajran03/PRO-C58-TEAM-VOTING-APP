@@ -1,6 +1,5 @@
 import firebase from "firebase";
 require("@firebase/firestore");
-
 const firebaseConfig = {
   apiKey: "AIzaSyButWNWheOuPzj1fb-qdCGbUP8Pz6ykutg",
   authDomain: "teamvoitingapp-f1b25.firebaseapp.com",
@@ -10,6 +9,7 @@ const firebaseConfig = {
   messagingSenderId: "1019355660505",
   appId: "1:1019355660505:web:48d3c99076a268c723fec8",
   measurementId: "G-26FRBETBP6"
+};asurementId: "G-26FRBETBP6"
 };
 
 firebase.initializeApp(firebaseConfig);
